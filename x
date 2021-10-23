@@ -38,4 +38,26 @@ void main()
     // display the sum of natural number  
     printf("\n Sum of the first %d number is: %d", num, sum);   
     getch();  
-}  
+}import java.util.*;
+
+ // Compiler version JDK 11.0.2
+
+ class Dcoder
+ {
+   public static void main(String args[])
+   { 
+    System.out.println("Hello, Dcoder!");
+    Scanner sc=new Scanner("G Gautam 124");
+  //  String a=sc.next();
+  String a="G";
+ // sc.next();
+    System.out.println(sc.hasNext(a));
+    sc.next();
+    String b="Gautam";
+    System.out.println(sc.hasNext(b));
+    
+    
+   }
+ }
+
+  
